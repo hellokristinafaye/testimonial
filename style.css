@@ -39,6 +39,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: none;
 }
 .user-text .fa-quote-left {
     font-size: 30px;
@@ -70,3 +71,13 @@
     cursor: pointer;
 }
 /* pic styling end */
+
+/* hiding/showing text styling start */
+.user-text.active-text{
+    display: block;
+}
+.user-pic.active-pic{
+    width: 100px;
+    border: 3px solid #ff0058;
+}
+/* hiding/showing text styling end */

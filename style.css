@@ -13,7 +13,7 @@
     justify-content: center;
 }
 
-
+/* card styling start */
 .testimonial {
     width: 90%;
     max-width: 800px;
@@ -27,3 +27,18 @@
     position: relative;
     box-shadow: 0 15px 20px rgba(0,0,0,0.2);
 }
+/* card styling end */
+
+/* text styling start */
+.user-text {
+    width: 80%;
+    text-align: center;
+    /* line-height: 30px; */
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* text styling end */

@@ -54,3 +54,19 @@
     text-transform: uppercase;
 }
 /* text styling end */
+
+/* pic styling start */
+.testimonial-pic {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-pic {
+    width: 65px;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+}
+/* pic styling end */
